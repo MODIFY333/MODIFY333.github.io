@@ -409,13 +409,13 @@ footer a {
 .head3 p {font-size: 13px;margin-top:0px;text-align: justify;}
 .head3 button {margin-top: 1px;font-weight: 900;font-size: 14px;}
 .more_button {width: 60px; height:25px }
-.head3 i {font-size: 55px;padding: 0px;}
+.head3 i {font-size: 50px;padding: 0px;}
 .rocket {padding: 0px 5px;}
 .microphone {padding: 0px 10px;}
 .qqq {padding: 10px 23px;}
 
 .tablets {
-    padding: 0px 20px;
+      padding: 0px 11px;
 }
 .head4 i {font-size: 120px;}
 .text1 {margin-top: 10px;}
