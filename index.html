@@ -4,17 +4,26 @@
     <title>Из PSD в HTML</title>
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="http://weloveiconfonts.com/api/?family=fontawesome" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<style type="text/css">
+    @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+</style>
 <body>
     <div class="head"></div>
     <header>
         <div class="header-container">
             <div class="site_name">
-                <span class="fontawesome-bell"></span>
+                <i class="fa fa-bell-o"></i>
 
                 <p><span>Site Name</span> <br> caption goes here</p>
 
@@ -128,11 +137,13 @@
         <p class="text2">Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in,diam am dui, mi,<br> tincidunt quis,auccumsan porttitor,facillisis bi in sem quis dui placerat ornare</p>
         </div>
         <div class="laptop">
-            <button type="button" class="button_arrow"><span class="fontawesome-circle-arrow-left"></span></button>
+            <span> <i class="fas fa-arrow-alt-circle-left"></i></span>
+            
         <div class="qqq">
             <i class="fas fa-laptop"></i>
         </div>
-            <button type="button" class="button_arrow"><span class="fontawesome-circle-arrow-right"></span></button>
+        <div>
+            <span> <i class="fas fa-arrow-alt-circle-right"></i></span>
         </div>
       
     </section>
