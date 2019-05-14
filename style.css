@@ -17,7 +17,7 @@ html,body,button,p {
  section {
     display: flex;}
 
-.fontawesome-bell {
+.site_name .fa-bell-o {
     color: #fdbd1f;
     float: left;
     font-size: 2.545453vw;
@@ -266,7 +266,6 @@ transform: translateX(-10px);
  justify-content: center;
  align-items: center;
 }
-.button_arrow {background-color:white;height:55px;}
 .qqq {
     padding: 20px 100px;
 }
@@ -299,11 +298,11 @@ align-items: center;
     background-size: 330px 240px;
     background-position: top 10px right 50px;
 }
-.fontawesome-circle-arrow-right {
+div .fa-arrow-alt-circle-right {
     font-size: 6vmin;
     color: #ab6f80;
 }
-.fontawesome-circle-arrow-left {
+div .fa-arrow-alt-circle-left {
     font-size: 6vmin;
     color: #ab6f80;
 }
@@ -395,7 +394,7 @@ footer a {
         right: 115px;
     }
     footer p {font-size: 16px;}
-.fontawesome-bell {
+.site_name .fa-bell-o {
     font-size: 30px;
 }
 .site_name p {
@@ -410,14 +409,13 @@ footer a {
 .head3 p {font-size: 13px;margin-top:0px;text-align: justify;}
 .head3 button {margin-top: 1px;font-weight: 900;font-size: 14px;}
 .more_button {width: 60px; height:25px }
-.head3 i {font-size: 50px;padding: 0px;}
-.head3 .fa-rocket{font-size:45px;}
+.head3 i {font-size: 55px;padding: 0px;}
 .rocket {padding: 0px 5px;}
 .microphone {padding: 0px 10px;}
-.qqq {padding: 10px 23px;}
+.qqq {padding: 10px 17px;}
 
 .tablets {
-      padding: 0px 11px;
+    padding: 0px 11px;
 }
 .head4 i {font-size: 120px;}
 .text1 {margin-top: 10px;}
@@ -433,11 +431,12 @@ footer a {
 .head5 i {
 font-size: 170px;
 }
-.head5 span{
-font-size: 35px;
+
+.head5 span i{
+font-size: 33px;
 }
 .fa-laptop {
-	background-size: 165px 115px;
+	 	background-size: 165px 115px;
     background-position: top 5px right 25px;
 }
 }
