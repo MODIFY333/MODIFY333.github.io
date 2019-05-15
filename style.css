@@ -1,3 +1,9 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,900');
 p { color: #9e8e92;}
  
@@ -218,7 +224,7 @@ font-size: calc(4px + 1vw);
 .device {display: flex;width: 100%}
 
 .tablets {
-    padding: 0 65px;
+    padding: 0 4%;
     align-items: center;
     display: flex;
 
@@ -241,7 +247,7 @@ font-size: calc(4px + 1vw);
     margin-top: 30px;
     text-align: justify;
     font-size: calc(4.7px + 1.17vw);
-    margin-right: 3vw;
+    padding-right:2.5%;
 
 }
 i.fa-mobile-alt {
@@ -262,10 +268,10 @@ transform: translateX(-10px);
     background-color: white;
 }
 .head4 i {
-    font-size: 13vw;
+    font-size: 270px;
 }
 .head4 span i {
-    font-size: 11vw;
+    font-size: 200px;
 }
 .head5 {
  height: 546px;
@@ -416,10 +422,10 @@ footer a {text-decoration: none;color: #ab6f80;}
 .text_block2 {padding: 5px 0px;}
 .head3 p {font-size: 16px;margin-top:10px;text-align: justify;width: 100%;}
 .head3 {height: 650px}
-//.head3 button {margin-top: 10px;font-weight: 900;font-size: 14px;}
+.head3 button {margin-top: 10px;}
 //.more_button {width: 60px; height:25px }
-.first{flex-direction: column;}
-.second {flex-direction: column;}
+.first{flex-direction: column;padding: 0px 3%}
+.second {flex-direction: column;padding: 0px 3%}
 //.head3 i {font-size: 55px;padding: 0px;}
 .rocket  {padding: 0px 5px;}
 .microphone {padding: 0px 10px;}
@@ -428,12 +434,11 @@ footer a {text-decoration: none;color: #ab6f80;}
 .tablets {
     padding: 0px 0px 20px 0px;
 }
-.head4 {height:400px;}
-.head4 i {font-size: 100px;}
+.head4 {height:480px;}
+.head4 i {font-size: 180px;}
 .text1 {margin-top: 10px;font-size: 15px;}
-.head4 span i {font-size: 90px;}
-.head4 button {margin-top: 10px;}
-.head4 .more_button {font-size: 13px;}
+.head4 span i {font-size: 115px;}
+.head4 button {margin-top: 20px;}
 .hl {
     border-top: 1px solid #e2e2df;  
     width: 100%;
@@ -443,7 +448,7 @@ footer a {text-decoration: none;color: #ab6f80;}
 .head5 i {
 font-size: 170px;
 }
-
+.head5{height: }
 .head5 span i{
 font-size: 33px;
 }
@@ -458,12 +463,4 @@ font-size: 35px;
     flex-direction: column;
 		align-items: flex-start;
 		margin: 0px 3%;
-}
-.tablets {
-    justify-content: center;
-}
-.text_block3 {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
 }
