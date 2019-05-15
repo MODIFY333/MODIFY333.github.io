@@ -165,6 +165,7 @@ button:hover{transition: all 0.2s;}
   	.menu-main a:hover {
         color: white;
         background: #fdbd1f;
+	transition: all 0.4s;
     }
         
 .header-container{
