@@ -1,9 +1,3 @@
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-
-/* fontawesome */
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
-}
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,900');
 p { color: #9e8e92;}
  
@@ -162,8 +156,7 @@ button:hover{transition: all 0.2s;}
         padding: 30px 25px;
         display: block;   
     }
-
-    .menu-main a:hover {
+  	.menu-main a:hover {
         color: white;
         background: #fdbd1f;
     }
@@ -339,19 +332,9 @@ footer {
 
 }
 
-footer span {
-    color: #ab6f80;
-}
-
-footer p {
-    font-size: 20px;
-    text-align: center;
-}
-
-footer a {
-    text-decoration: none;
-    color: #ab6f80;
-}
+footer span {color: #ab6f80;}
+footer p {font-size: 20px;text-align: center;}
+footer a {text-decoration: none;color: #ab6f80;}
 @media screen and ( max-width: 1250px) {
 .rocket {padding: 0px 15px} 
 .microphone{padding: 0px 15px}
@@ -427,26 +410,27 @@ footer a {
 .head2 p,.head2 h2 {font-size: 16px}
 .head2 .text_box {font-size: 16px;width: 140px}
 .head3 h2 {font-size:16px;margin-top:10px;}
-.head3 span {font-size:13px;}
+.head3 span {font-size:16px;}
 .vl {display: none;}
 .text_block {padding: 5px 0px;}
 .text_block2 {padding: 5px 0px;}
-.head3 p {font-size: 13px;margin-top:10px;text-align: justify;}
-.head3 {height: 470px}
-.head3 button {margin-top: 10px;font-weight: 900;font-size: 14px;}
-.more_button {width: 60px; height:25px }
+.head3 p {font-size: 16px;margin-top:10px;text-align: justify;width: 100%;}
+.head3 {height: 650px}
+//.head3 button {margin-top: 10px;font-weight: 900;font-size: 14px;}
+//.more_button {width: 60px; height:25px }
 .first{flex-direction: column;}
 .second {flex-direction: column;}
-.head3 i {font-size: 55px;padding: 0px;}
-.rocket {padding: 0px 5px;}
+//.head3 i {font-size: 55px;padding: 0px;}
+.rocket  {padding: 0px 5px;}
 .microphone {padding: 0px 10px;}
 .qqq {padding: 10px 17px;}
 
 .tablets {
     padding: 0px 0px 20px 0px;
 }
+.head4 {height:400px;}
 .head4 i {font-size: 100px;}
-.text1 {margin-top: 10px;margin-left:3%;font-size: 15px;}
+.text1 {margin-top: 10px;font-size: 15px;}
 .head4 span i {font-size: 90px;}
 .head4 button {margin-top: 10px;}
 .head4 .more_button {font-size: 13px;}
@@ -472,7 +456,8 @@ font-size: 35px;
 }
 .device{
     flex-direction: column;
-    justify-content: center;
+		align-items: flex-start;
+		margin: 0px 3%;
 }
 .tablets {
     justify-content: center;
@@ -480,6 +465,5 @@ font-size: 35px;
 .text_block3 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:flex-start;
 }
-.more{align-self: flex-start;margin-left: 3%}
